@@ -1,7 +1,7 @@
 export default {
     editor: {
         label: {
-            en: 'Stripe checkout',
+            en: 'Synergy Payment via Stripe',
         },
     },
     properties: {
