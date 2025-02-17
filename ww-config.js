@@ -11,6 +11,7 @@ export default {
             },
             type: 'Text',
             defaultValue: '',
+            bindable: true,
         },
         clientSecret: {
             label: {
@@ -18,6 +19,7 @@ export default {
             },
             type: 'Text',
             defaultValue: '',
+            bindable: true,
         },
         stripeAccount: {
             label: {
@@ -25,6 +27,7 @@ export default {
             },
             type: 'Text',
             defaultValue: '',
+            bindable: true,
         },
         mode: {
             label: { en: 'Mode' },
@@ -37,6 +40,7 @@ export default {
                 ],
             },
             defaultValue: 'payment',
+            bindable: true,
         },
         amount: {
             label: {
@@ -50,6 +54,7 @@ export default {
             },
             defaultValue: 100,
             hidden: content => !content.mode === 'setup',
+            bindable: true,
         },
         layout: {
             label: { en: 'Layout' },
@@ -61,6 +66,7 @@ export default {
                 ],
             },
             defaultValue: 'accordion',
+            bindable: true,
         },
         theme: {
             label: { en: 'Theme' },
@@ -73,6 +79,7 @@ export default {
                 ],
             },
             defaultValue: 'stripe',
+            bindable: true,
         },
         returnUrl: {
             label: {
@@ -80,6 +87,7 @@ export default {
             },
             type: 'Text',
             defaultValue: '',
+            bindable: true,
         },
     },
 };
